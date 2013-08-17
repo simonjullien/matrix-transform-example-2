@@ -1,0 +1,11 @@
+// fonts
+@font-face {
+    font-family: "DINNextLTPro-Condensed";
+    src: url('../CDN_PATH/fonts/DINNextLTPro-Condensed.eot');
+    src: url('../CDN_PATH/fonts/DINNextLTPro-Condensed.eot?#iefix') format('embedded-opentype'),
+         url('../CDN_PATH/fonts/DINNextLTPro-Condensed.woff') format('woff'),
+         url('../CDN_PATH/fonts/DINNextLTPro-Condensed.ttf') format('truetype'),
+         url('../CDN_PATH/fonts/dinnextltprocondensed.svg#dinnextltprocondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

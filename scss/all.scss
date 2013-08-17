@@ -1,0 +1,47 @@
+/* IMPORTS ONLY - Don't put any css in here */
+
+/* BASE
+---------------------------------------------------------------------- */
+//@import "normalize";
+//@import "reset";
+//@import "MyFontsWebfontsKit";
+//@import "globals";
+//@import "utilities";
+@import "fonts";
+@import "base";
+
+/* MODULES
+--------------------------------------------------------------------- */
+@import "modules/home";
+
+/* LAYOUT
+---------------------------------------------------------------------- */
+.simon-jullien {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.simon-jullien h1 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #555555;
+}
+
+.simon-jullien h2 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #555555;
+}
+
+.simon-jullien h2 a {
+  color: #555555;
+  text-decoration: none;
+}
+
+body {
+  font-family: "DINNextLTPro-Condensed";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+}
